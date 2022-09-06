@@ -1,0 +1,30 @@
+Jun 03, 2022 11:10:24 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: test has registered an account
+Jun 03, 2022 11:10:32 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User test@test has logged in
+Jun 03, 2022 11:31:02 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: Jan has registered an account
+Jun 03, 2022 11:31:18 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: test has registered an account
+Jun 03, 2022 11:31:31 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User test@test has logged in
+Sept 03, 2022 1:32:41 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: ydsaf has registered an account
+Sept 03, 2022 2:08:54 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: swr has registered an account
+Sept 03, 2022 2:09:00 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User ph.gagneux@gmail.com has logged in
+Sept 04, 2022 6:49:09 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: kujhg has registered an account
+Sept 04, 2022 6:49:16 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User ph.gagneux@gmail.com has logged in
+Sept 05, 2022 12:46:30 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: retztrez has registered an account
+Sept 05, 2022 1:25:33 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: ertz has registered an account
+Sept 05, 2022 1:25:51 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User philippe.gagneux@students.fhnw.ch has logged in
+Sept 05, 2022 1:27:35 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User: erwer has registered an account
+Sept 05, 2022 1:27:41 PM ch.fhnw.acrm.business.service.LogToFileService logUser
+INFO: User ph.gagneux@gmail.com has logged in

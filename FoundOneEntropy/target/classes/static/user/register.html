@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<!--Author: Jan Wilhelm-->
+<!--Register Password Checker: Tijana Dobric-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>LO Transport</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.0/dist/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+<div class="container" style="display:flex;flex-direction:column;justify-content:center;">
+    <div class="page-header">
+        <h2 class="text-center"><strong>Register</strong></h2>
+    </div>
+    <form id="form" method="post">
+        <div class="form-group mb-3"><input class="form-control" type="text"  name="name" id="nam" placeholder="Name"></div>
+        <div class="form-group mb-3"><input class="form-control" type="email"  name="email" id="mail" placeholder="Email"></div>
+        <div class="form-group mb-3"><input class="form-control" type="password"  name="password" id="psw" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain: 1 number, 1 uppercase letter, 1 lowercase letter, and 6 or more characters"></div>
+        <div class="form-group mb-3"><button class="btn1 d-block w-100" type="submit">Register</button></div>
+        <div id="message"></div>
+        <h3>Password contains the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>uppercase</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>6 characters</b></p>
+    </form>
+</div>
+
+<div class="modal fade" role="dialog" tabindex="-1" id="error-modal">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #e85e6c;">
+                <h1 class="text-white">Ooops!</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-truncate text-primary" id="error-text"></p>
+            </div>
+            <div class="modal-footer"><button class="btn btn-warning d-block w-100" type="button" data-bs-dismiss="modal">Try Again</button></div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/webapp.js"></script>
+<script>
+    var name = document.getElementById("nam");
+    var email = document.getElementById("mail");
+    var psw = document.getElementById("psw");
+    var letter = document.getElementById("letter");
+    var capital = document.getElementById("capital");
+    var number = document.getElementById("number");
+    var length = document.getElementById("length");
+
+    psw.onfocus = function() {
+        document.getElementById("message").style.display = "block";
+    }
+
+    psw.onblur = function() {
+        document.getElementById("message").style.display = "none";
+    }
+
+    psw.onkeyup = function() {
+        var lowerCaseLetters = /[a-z]/g;
+        if(psw.value.match(lowerCaseLetters)) {
+            letter.classList.remove("invalid");
+            letter.classList.add("valid");
+        } else {
+            letter.classList.remove("valid");
+            letter.classList.add("invalid");
+        }
+
+        var upperCaseLetters = /[A-Z]/g;
+        if(psw.value.match(upperCaseLetters)) {
+            capital.classList.remove("invalid");
+            capital.classList.add("valid");
+        } else {
+            capital.classList.remove("valid");
+            capital.classList.add("invalid");
+        }
+
+        var numbers = /[0-9]/g;
+        if(psw.value.match(numbers)) {
+            number.classList.remove("invalid");
+            number.classList.add("valid");
+        } else {
+            number.classList.remove("valid");
+            number.classList.add("invalid");
+        }
+
+        if(psw.value.length >= 6 ) {
+            length.classList.remove("invalid");
+            length.classList.add("valid");
+        } else {
+            length.classList.remove("valid");
+            length.classList.add("invalid");
+        }
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        $("#form").submit(function (event) {
+            register($('input[name=name]').val(), $('input[name=email]').val(), $('input[name=password]').val(), function (result) {
+                window.location.replace("/");
+            }, function (error) {
+                $("#error-modal").modal('show');
+                $("#error-text").text(error);
+            });
+            event.preventDefault();
+        });
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dda8efee-0e15-41d4-90e1-76a6db0950ea" name="Changes" comment="1. Changing secret solved huge copy problem. Super success!&#10;2. Ajax initial website change successfull.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/acrm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/acrm/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/user_logs.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="theMostMain" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EFvHkXNNGUNBdB3CARMoM1QOh3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/phgag/IdeaProjects/FoundOneEntropy",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "25ba6dd3c9141e89131b9e8300ccac08"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\phgag\IdeaProjects\FoundOne1\src\main\resources\static\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ACRMWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="acrm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.fhnw.acrm.ACRMWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dda8efee-0e15-41d4-90e1-76a6db0950ea" name="Changes" comment="" />
+      <created>1662204060746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662204060746</updated>
+      <workItem from="1662204063740" duration="1274000" />
+      <workItem from="1662206614161" duration="47000" />
+      <workItem from="1662206878744" duration="647000" />
+      <workItem from="1662301684350" duration="7370000" />
+      <workItem from="1662374757313" duration="715000" />
+      <workItem from="1662377107550" duration="2644000" />
+      <workItem from="1662450862183" duration="1264000" />
+    </task>
+    <task id="LOCAL-00001" summary="1. Changing secret solved huge copy problem. Super success!&#10;2. Ajax initial website change successfull.">
+      <created>1662310091315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662310091315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1. Changing secret solved huge copy problem. Super success!&#10;2. Ajax initial website change successfull.">
+      <created>1662310224518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662310224518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Changing secret solved huge copy problem. Super success!&#10;2. Ajax initial website change successfull." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Changing secret solved huge copy problem. Super success!&#10;2. Ajax initial website change successfull." />
+  </component>
+</project>
